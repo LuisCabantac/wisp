@@ -25,10 +25,32 @@ button {
   margin: 5px 0;
   padding: 5px 12px;
   background-color: #3f3f3f;
-  border: none;
+  border: 1px solid #3f3f3f;
   border-radius: 6px;
   font-family: inherit;
   color: inherit;
+  cursor: pointer;
+}
+
+#delete-btn {
+  background-color: #f5f5f5;
+  color: #3f3f3f;
+}
+
+button:hover {
+  background-color: #3a3a3a;
+}
+
+#delete-btn:hover {
+  background-color: #eeeeee;
+}
+
+button:active {
+  background-color: #363636;
+}
+
+#delete-btn:active {
+  background-color: #e6e6e6;
 }
 
 ul {
